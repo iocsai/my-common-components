@@ -1,0 +1,18 @@
+/*==== FOOTER STYLES ====*/
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    
+    /* Equals height of the footer and pushes away the content in the case they would touch. */
+    padding-bottom: 50px; 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+}
+
